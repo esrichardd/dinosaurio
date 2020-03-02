@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DinoGame</title>
+    <script src="juego.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+
+        .contenedor{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .contenedor h1{
+            text-transform: uppercase;
+        }
+
+
+    </style>
+</head>
+<body onload="inicializa();">
+    
+    <div class="contenedor">
+        <h1>Juego del Dinosaurio</h1>
+        <canvas id="canvas" width="700" height="300" style="border: 3px solid #000"></canvas>
+    </div>
+    
+</body>
+</html>
